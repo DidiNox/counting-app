@@ -1,0 +1,60 @@
+body {
+    background-image: url("bck-image.jpg");
+    background-size: cover;
+    font-family: Courier New, Courier, monospace;
+    font-weight: bold;
+    text-align: center;
+    height: 100vh;
+}
+
+.apps {
+    background: whitesmoke;
+    width: 70%;
+    margin: 0 auto;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+    border: 3px dotted dimgray;
+    border-radius: 5px;
+    color: #000000;
+    text-shadow: 0 0 blur white;
+}
+
+h1 {
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+h2 {
+    font-size: 50px;
+    margin-top: 0;
+    margin-bottom: 20px;
+}
+
+button {
+    border: none;
+    border-radius: 10px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    color: #f4f4f4;
+    text-shadow: 0 0 blur black;
+    font-weight: bold;
+    width: 200px;
+    margin-bottom: 5px;
+    border-radius: 5px;
+}
+
+#increment-btn {
+    background: #d5995d;
+}
+
+#save-btn {
+    background: peru;
+}
+
+#save-el {
+    color: #000000;
+    text-shadow: 0 0 blur whitesmoke;
+    text-align: center;
+    font-size: 25px;
+}
